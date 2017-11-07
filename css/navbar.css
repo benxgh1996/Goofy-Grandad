@@ -26,7 +26,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
-   
+
 
 .nav-container a {
     width: auto;
@@ -41,6 +41,9 @@
 
 .nav-container a:hover {
     background-color: #ffff99;
+}
+#current_nav_item:hover {
+    color:black;
 }
 
 #current_nav_item {

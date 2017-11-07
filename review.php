@@ -19,9 +19,50 @@
     <?php include "header.php";?>
 
 
-        <div class="message" style="padding-top: 3em;">
-            Sorry for the inconvenience, but this page is currently under construction. Please try again at a later date.
-        </div>
+        <div class="about-body">
+        <h2>Reviews</h2>
+
+            "Goofy Grandad is a wonderful addition to our community. He has 
+            inspired our young people by taking fun and laughter to a new level."
+            <br>
+            &emsp;&emsp;<i> -Joe C.</i>
+            <br>
+            <br><br>
+            
+
+            "Goofy Grandad: hilariously funny, entertaining, and brings smiles to both adults and kids. I LOVE IT!!!"
+            <br>
+            &emsp;&emsp;<i> -Patsy H.</i>
+            <br>
+
+            <br><br>
+            
+
+            "Goofy Grandad is funny loveable and entertaining in his unique and colorful presence. He adds a breath of fresh air to everyone he touches!"
+            <br>
+            &emsp;&emsp;<i> -Mercedes M.</i>
+            <br>
+            <br>
+
+
+             <a href="contact.php" class="button">Want to leave a review? Click Here</a>
+        </p>
+
+        <style>
+.button {
+    background-color: ##ff66c6;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+    </div>
 
 
     <?php include "footer.php";?>

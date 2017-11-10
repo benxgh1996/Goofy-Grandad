@@ -5,7 +5,9 @@ This page contains all the classes that modify the style of the main content on 
 .bio-pic {
     float: right;
     width: 40%;
-    margin: 0px 1em 1em 1em;
+    min-width: 12.5em;
+    margin: 0 1em 1em 1em;
+    /*border: 2px solid yellow;*/
 }
 
 .about-body {

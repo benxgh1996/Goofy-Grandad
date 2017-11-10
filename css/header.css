@@ -19,7 +19,7 @@
     margin-left: auto;
     background-color:#ff66c6;
     height: 4em;
-    /*border: solid 5px black;*/
+    border: solid 5px yellow;
 
     display: flex;
     justify-content: space-around;
@@ -27,6 +27,9 @@
     flex-wrap: wrap;
 }
 
+.nav-item {
+     border: solid 2px purple;
+ }
 
 .nav-container a {
     width: auto;
@@ -37,11 +40,14 @@
     text-decoration: none;
     font-size: 1em;
     line-height: 4em;
+    border: solid 2px indigo;
+    display: block;
 }
 
 .nav-container a:hover {
     background-color: #ffff99;
 }
+
 #current_nav_item:hover {
     color:black;
 }

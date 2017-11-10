@@ -1,0 +1,25 @@
+.faq {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.answer {
+    padding-left: 7em;
+    padding-bottom: 1.5em;
+    padding-right: 3em;
+    display:none;
+}
+
+.faqdiv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    padding-right: 3em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.faqdiv p {
+    margin-left: 2em;
+
+}

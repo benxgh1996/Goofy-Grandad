@@ -31,15 +31,21 @@
         <div class="events">
             <div class = "eventsmessage">
                 <h2> Schedule an event today! </h2>
-                <p>Goofy Grandad provides services for a variety of events.
-                He specializes in motivational speaking and entertainment
-                for kids and seniors. </p>
+                <p>Goofy Grandad provides services for a variety of events, especially the following:
+                </p>
+                <ul>
+                    <li>Motivational speaking</li>
+                    <li>Entertainment</li>
+                </ul>
+                <p>Although his messages are mainly for kids and seniors, he strives to reach<br> people of all ages! Check out what he has been up to on his Facebook
+                timeline.</p>
                 <button class="bookButton"><a href="contact.php" style="text-decoration:none; color: black;"> Contact Goofy Grandad</a></button>
             </div> 
         
             <div class="timeline">
+            	<div style="background-color: #ff66c6; display: flex; justify-content: center;"><h2> Facebook Timeline </h2></div>
                 
-                <div class="fb-page" data-href="https://www.facebook.com/GOOFY-Grandad-304161619685945/" data-width=500px data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GOOFY-Grandad-304161619685945/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/">GOOFY Grandad</a></blockquote></div>
+                <div class="fb-page" data-href="https://www.facebook.com/GOOFY-Grandad-304161619685945/" data-width=500px data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="display: flex; justify-content: center; background-color: #ff66c6; padding-bottom: 3em;"><<blockquote cite="https://www.facebook.com/GOOFY-Grandad-304161619685945/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/">GOOFY Grandad</a></blockquote></div>
             </div>
         </div>
 

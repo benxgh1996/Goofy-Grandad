@@ -27,7 +27,7 @@
             &emsp;&emsp;<i> -Joe C.</i>
             <br>
             <br><br>
-            
+
 
             "Goofy Grandad: hilariously funny, entertaining, and brings smiles to both adults and kids. I LOVE IT!!!"
             <br>
@@ -35,16 +35,17 @@
             <br>
 
             <br><br>
-            
 
-            "Goofy Grandad is funny loveable and entertaining in his unique and colorful presence. He adds a breath of fresh air to everyone he touches!"
+
+            "Goofy Grandad is funny loveable and entertaining in his unique and colorful presence.
+        He adds a breath of fresh air to everyone he touches!"
             <br>
             &emsp;&emsp;<i> -Mercedes M.</i>
             <br>
             <br>
 
 
-             <a href="contact.php" class="reviews-button">Want to leave a review? Click Here</a>
+             <a href="contact.php" class="button">Want to leave a review? Click Here</a>
     </div>
 
     <?php include "footer.php";?>

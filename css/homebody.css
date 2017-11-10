@@ -27,7 +27,7 @@ To modify styles for the sliders, go to slider.css.
     max-width: 95%;
 }
 
-.message {
+.mission {
     text-align: center;
     max-width: 90%;
     margin-left:auto;
@@ -36,7 +36,7 @@ To modify styles for the sliders, go to slider.css.
     width: 75%;
     font-size: 2em;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .pink{

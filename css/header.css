@@ -18,8 +18,8 @@
 .nav-container {
     margin-left: auto;
     background-color:#ff66c6;
-    height: 4em;
-    border: solid 5px yellow;
+    height: auto;
+    /*border: solid 5px yellow;*/
 
     display: flex;
     justify-content: space-around;
@@ -27,9 +27,12 @@
     flex-wrap: wrap;
 }
 
-.nav-item {
-     border: solid 2px purple;
- }
+/*.nav-item {*/
+    /*border: solid 5px black;*/
+    /*width: auto;*/
+    /*margin-left: 1.5em;*/
+    /*margin-right: 1.5em;*/
+ /*}*/
 
 .nav-container a {
     width: auto;
@@ -40,8 +43,7 @@
     text-decoration: none;
     font-size: 1em;
     line-height: 4em;
-    border: solid 2px indigo;
-    display: block;
+    /*border: solid 5px red;*/
 }
 
 .nav-container a:hover {

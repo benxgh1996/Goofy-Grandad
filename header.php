@@ -10,8 +10,8 @@
                              target="_blank">Videos</a>
         <a href="events.php" <?php if ($currentPage == "events") {echo "id=\"current_nav_item\"";}?>>
             Events</a>
-        <a href="review.php" <?php if ($currentPage == "review") {echo "id=\"current_nav_item\"";}?>>
-            Review</a>
+        <a href="reviews.php" <?php if ($currentPage == "reviews") {echo "id=\"current_nav_item\"";}?>>
+            Reviews</a>
         <a href="contact.php" <?php if ($currentPage == "contact") {echo "id=\"current_nav_item\"";}?>>
             Contact</a>
         <a href="faq.php" <?php if ($currentPage == "faq") {echo "id=\"current_nav_item\"";}?>>

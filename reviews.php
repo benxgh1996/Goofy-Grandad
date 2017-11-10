@@ -1,4 +1,4 @@
-<?php $currentPage = "review"; ?>
+<?php $currentPage = "reviews"; ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -18,8 +18,7 @@
 <body>
     <?php include "header.php";?>
 
-
-        <div class="about-body">
+    <div class="about-body">
         <h2>Reviews</h2>
 
             "Goofy Grandad is a wonderful addition to our community. He has 
@@ -45,25 +44,8 @@
             <br>
 
 
-             <a href="contact.php" class="button">Want to leave a review? Click Here</a>
-        </p>
-
-        <style>
-.button {
-    background-color: ##ff66c6;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-</style>
+             <a href="contact.php" class="reviews-button">Want to leave a review? Click Here</a>
     </div>
-
 
     <?php include "footer.php";?>
 

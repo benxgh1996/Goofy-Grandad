@@ -1,5 +1,6 @@
 /*
 This page contains all the classes that modify the style of the main content on the Home page (see index.php)
+To modify styles for the sliders, go to slider.css.
 */
 
 .home-wrap {
@@ -15,11 +16,15 @@ This page contains all the classes that modify the style of the main content on 
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 3%;
+    /*border: solid green 5px;*/
 }
 
-.slideshow-container, .home-video {
+.slideshow-container, .home-video-container {
+    /*This sets the common properties of the two containers. There is a separate style
+    definition for .slideshow-container in slider.css*/
     margin-bottom: 2em;
-    /*border: 5px solid black;*/
+    /*border: 5px solid red;*/
+    max-width: 95%;
 }
 
 .message {

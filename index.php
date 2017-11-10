@@ -23,20 +23,20 @@
         <div class= "elements">
             <div class="slideshow-container">
                 <div class="left-switch"><a class="prev" onclick="plusSlides(-1)">&#10094;</a></div>
-                <div class="mySlides fade">
-                    <img src="images/elephantwalk.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                <div class="image-container fade">
+                    <img src="images/elephantwalk.jpg" class="img-responsive"/>
                 </div>
-                <div class="mySlides fade">
-                    <img src="images/sammy.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                <div class="image-container fade">
+                    <img src="images/sammy.jpg" class="img-responsive"/>
                 </div>
-                <div class="mySlides fade">
-                    <img src="images/partial_bookcover.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                <div class="image-container fade">
+                    <img src="images/partial_bookcover.jpg" class="img-responsive"/>
                 </div>
                 <div class="right-switch"><a class="next" onclick="plusSlides(1)">&#10095;</a></div>
             </div>
 
-            <div class="home-video">
-                <iframe class="img-responsive" width="550" height ="360"
+            <div class="home-video-container">
+                <iframe class="img-responsive"
                         src="https://www.youtube.com/embed/o7wOFAASi5Y"
                         frameborder="0" allowfullscreen>
                 </iframe>

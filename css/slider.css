@@ -10,18 +10,30 @@ This page contains the styling for the slider that is displayed on the homepage.
     justify-content: space-around;
 }
 
-.mySlides {
+.image-container {
     display: none;
+    /*border: 5px brown solid;*/
+    max-width: 100%;
+}
+
+.img-responsive {
+    /*width to height ratio is recommended to be 550 to 360*/
+    /*border: solid 5px black;*/
+    max-width: 100%;
+    width: 35em;
+    height: 24em;
 }
 
 .prev, .next {
     cursor: pointer;
-    width: auto;
+    /*width: auto;*/
+    width: 0.5em;
     color: white;
-    padding: 10px;
+    padding: 0.1em;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.5em;
     transition: 0.6s ease;
+    /*border: 5px orange solid;*/
 }
 
 .prev {

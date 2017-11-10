@@ -8,7 +8,7 @@ function plusSlides(n) {
 
 function showSlides() {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("image-container");
     slideIndex = (slideIndex + slides.length) % slides.length;
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";

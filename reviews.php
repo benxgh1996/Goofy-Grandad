@@ -18,39 +18,28 @@
 <body>
     <?php include "header.php";?>
 
-    <div class="about-body">
-        <h2>Reviews</h2>
-
+    <div class="reviews-body">
+        <h2>Reviews for Goofy Grandad</h2>
+            <br>
             "Goofy Grandad is a wonderful addition to our community. He has 
             inspired our young people by taking fun and laughter to a new level."
-            <br>
-            &emsp;&emsp;<i> -Joe C.</i>
-            <br>
-            <br><br>
-
+            <br>&emsp;&emsp;<i>-Joe C.</i>
+            <br><br><br>
 
             "Goofy Grandad: hilariously funny, entertaining, and brings smiles to both adults and kids. I LOVE IT!!!"
-            <br>
-            &emsp;&emsp;<i> -Patsy H.</i>
-            <br>
-
-            <br><br>
+            <br>&emsp;&emsp;<i>-Patsy H.</i>
+            <br><br><br>
 
 
             "Goofy Grandad is funny loveable and entertaining in his unique and colorful presence.
-        He adds a breath of fresh air to everyone he touches!"
-            <br>
-            &emsp;&emsp;<i> -Mercedes M.</i>
-            <br>
-            <br>
+            He adds a breath of fresh air to everyone he touches!"
+            <br>&emsp;&emsp;<i> -Mercedes M.</i>
+            <br><br><br>
 
-
-             <a href="contact.php" class="button">Want to leave a review? Click Here</a>
+             <a href="contact.php" class="reviews-button">Want to leave a review? Click Here</a>
     </div>
 
     <?php include "footer.php";?>
-
-    <script src="slider.js"></script>
 </body>
 
 </html>

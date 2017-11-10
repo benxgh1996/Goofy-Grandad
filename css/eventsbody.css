@@ -16,7 +16,7 @@
 }
 
 .book-button {
-    width: 20em;
+    width: 21em;
     background-color: #ff66c6;
     color: black;
     padding: 1em 0 1em 0;
@@ -28,7 +28,8 @@
 .book-button a  {
     text-decoration:none;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .timeline {

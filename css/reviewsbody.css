@@ -1,12 +1,20 @@
+.reviews-body {
+    font-size: 1.2em;
+    margin: 1em 3em;
+}
+
 .reviews-button {
     background-color: #ff66c6;
     color: black;
-    padding: 15px 32px;
+    padding: 1em 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 0.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     /*border: solid 5px black;*/
 }
+

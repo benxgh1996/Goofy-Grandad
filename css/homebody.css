@@ -19,12 +19,9 @@ To modify styles for the sliders, go to slider.css.
     /*border: solid green 5px;*/
 }
 
-.slideshow-container, .home-video-container {
-    /*This sets the common properties of the two containers. There is a separate style
-    definition for .slideshow-container in slider.css*/
+.home-video-container {
     margin-bottom: 2em;
-    /*border: 5px solid red;*/
-    max-width: 95%;
+    max-width: 86%;
 }
 
 .mission {

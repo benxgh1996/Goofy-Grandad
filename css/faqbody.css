@@ -1,25 +1,24 @@
-.faq {
+.faq-body {
     padding-left: 3em;
     padding-right: 3em;
+    font-size: 1.2em;
 }
 
 .answer {
-    padding-left: 7em;
+    padding-left: 1.6em;
     padding-bottom: 1.5em;
-    padding-right: 3em;
+    padding-right: 1em;
     display:none;
+    /*border: 5px orange solid;*/
 }
 
-.faqdiv {
+.faq-div {
     display: flex;
     flex-direction: row;
-    padding-left: 3em;
-    padding-right: 3em;
-    justify-content: flex-start;
     align-items: center;
+    /*border: 5px blue solid;*/
 }
 
-.faqdiv p {
-    margin-left: 2em;
-
+.faq-div p {
+    margin-left: 0.5em;
 }

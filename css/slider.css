@@ -8,6 +8,8 @@ This page contains the styling for the slider that is displayed on the homepage.
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 95%;
+    margin-bottom: 2em;
 }
 
 .image-container {
@@ -26,7 +28,6 @@ This page contains the styling for the slider that is displayed on the homepage.
 
 .prev, .next {
     cursor: pointer;
-    /*width: auto;*/
     width: 0.5em;
     color: white;
     padding: 0.1em;

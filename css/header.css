@@ -27,13 +27,6 @@
     flex-wrap: wrap;
 }
 
-/*.nav-item {*/
-    /*border: solid 5px black;*/
-    /*width: auto;*/
-    /*margin-left: 1.5em;*/
-    /*margin-right: 1.5em;*/
- /*}*/
-
 .nav-container a {
     width: auto;
     padding-left: 1.5em;
@@ -43,7 +36,7 @@
     text-decoration: none;
     font-size: 1em;
     line-height: 4em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     /*border: solid 5px red;*/
 }
 

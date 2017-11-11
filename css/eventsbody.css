@@ -29,7 +29,7 @@
     text-decoration:none;
     color: black;
     font-size: 1.5em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .timeline {
@@ -46,7 +46,7 @@
     background-color: #ff66c6;
     display: flex;
     justify-content: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 1.5em;
     padding: 0.5em 0.5em 0.5em 0.5em;
     /*border: 5px solid black;*/

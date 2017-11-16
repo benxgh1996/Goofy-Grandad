@@ -4,10 +4,11 @@ This page imports all the necessary style sheets for the Goofy Grandad Website.
 
 @import url('css/slider.css');
 @import url('css/screen.css');
-@import url('css/navbar.css');
-@import url('css/bottombar.css');
+@import url('css/header.css');
+@import url('css/footer.css');
 @import url('css/aboutbody.css');
 @import url('css/homebody.css');
 @import url('css/contactbody.css');
 @import url('css/eventsbody.css');
 @import url('css/faqbody.css');
+@import url('css/reviewsbody.css');

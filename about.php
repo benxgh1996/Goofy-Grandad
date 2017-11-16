@@ -27,30 +27,39 @@
 <body>
     <?php include "header.php";?>
 
-    <div class="content">
-        <main class="main-area">
-            <section class="about">
-                <article>
-                    <h2>Who is Goofy Grandad?</h2>
-                    <p> Goofy Grandad, also known as Joe Heckstall,
-                        is dedicated to bringing messages of love and
-                        happiness to kids and seniors.
-                        <br><br>
-                        Joe's most recent venture is that of an entrepreneur.
-                        He released his first book, <i>Grandparents
-                            Aren't Goofy! Yes They Are, Too!</i>
-                        The humorous side of Joe is captured in this book as he
-                        gives encounters from his own experience of the joy of
-                        grand parenting. Joe plans to market not
-                        only the book, but the entire line of "Goofy Grandparents"
-                        merchandise.
-                    </p>
-                </article>
-                <div class="biophoc">
-                    <img src="images/joe.jpg" class="biophoto">
-                </div>
-            </section>
-        </main>
+    <div class="about-body">
+        <h2>Who is Goofy Grandad?</h2>
+        <p class="bio-text"> <img src="images/joe.jpg" class="bio-pic">
+            Joseph B. Heckstall is none other than "Mr. Energizer." He is a successful lecturer, TV
+            talk show host, trainer, and radio commentator. Mr. Heckstall has spent numerous years sharing
+            his message of power and success based on his philosophy of "Powerfilled Thinking," which
+            reminds his audience that "there are no limited opportunities, only limited thoughts."
+            If you are familiar with Atlanta’s radio community, you will
+            know that it was Joe who encouraged you to "get a checkup from the neck up."
+            <br><br>
+            A native of New York City, Joe earned his undergraduate degree from Saint Augustine College
+            in Raleigh, North Carolina. He credits this experience as being the one that saved him from
+            becoming a victim of peer pressure and negative lifestyles that befall many youth growing up in
+            inner city environments. With a genuine compassion for people and sensitivity towards those
+            who grapple with the impact of changing social and economic conditions that affect the quality
+            of life, Joe embarked upon a career as a public servant, corporate trainer, and consultant. As
+            such, he was formerly a city councilman in East Point, Georgia, and has served as a member of
+            the Georgia House of Representatives.
+            <br><br>
+            Joe’s career has also spanned other disciplines. He has worked as a real estate and mortgage
+            salesman. In corporate America two Fortune 500 companies have benefited from his service as a
+            personnel assistant. To further nurture his love for people, Joe has also been a teacher,
+            as well as a teen counselor. He is also certified in Neuro-Linguistic
+            Programming (NLP) and Hypnotherapy Language, which are innovative approaches to
+            understanding and directing human experiences, communication, and behavior.
+            <br><br>
+            Joe’s most recent venture is that of an entrepreneur. In September 2005, he released his first
+            book, <i>Grandparents Aren’t Goofy: Yes They Are, Too</i>. The humorous side of Joe is captured in
+            this book as he gives encounters from his own experience of the joy of grand parenting.
+            <br><br>
+            Joe and his wife, Andrea, have four children, an adopted niece, and three grandchildren. They
+            reside in the city of Atlanta.
+        </p>
     </div>
 
     <?php include "footer.php";?>

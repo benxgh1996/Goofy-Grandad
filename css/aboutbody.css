@@ -1,26 +1,21 @@
 /*
-This page contains all the classes that modify the style of the main content on the About page (see about.html)
+This page contains all the classes that modify the style of the main content on the About page (see about.php)
 */
 
-.biophoto {
-
+.bio-pic {
+    float: right;
+    width: 40%;
+    min-width: 12.5em;
+    margin: 0 1em 1em 1em;
+    /*border: 2px solid yellow;*/
 }
 
-.biophoc {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-}
-
-.about {
-    display: flex;
-    justify-content: center;
-}
-
-.about article{
+.about-body {
+    margin: 2em;
     padding: 2em;
+    /*border: solid 5px black;*/
 }
 
-.about img {
-    padding: 2em;
+.bio-text {
+    font-size: 1.2em;
 }

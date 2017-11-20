@@ -1,8 +1,3 @@
-/*
-* Sends email to client
-* Gets name, email, and message as params
-* Sends feedback if successful
-*/
 <?php
 
 $name = $_POST['name'];
@@ -18,10 +13,10 @@ $email_body = "You have received a new message from: $name.\n".
 
 $to = "yourgoofygrandad@gmail.com";
 
-if (mail($to, $email_subject, $email_body)) {
+ if (mail($to,$email_subject,$email_body)) {
    header( "refresh:2;url=contact.php" );
    echo "Thank you for the message!";
-} else {
+} else{
    header( "refresh:2;url=contact.php" );
     echo "Unable to send message!";
  }

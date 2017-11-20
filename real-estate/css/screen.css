@@ -1,0 +1,22 @@
+html {
+    position: relative;
+    /*I think the above line is part of the key fix to bottom bar jumping problem. (Gonghan)*/
+    min-height: 100%;
+    /*border: 5px solid purple;*/
+}
+
+body {
+    margin: 0 0 100px;
+    /*I think the above line is part of the key fix to the bottom bar jumping problem.
+    It gives a margin between the body and the html, and somehow this makes the ancestor of the
+    footer appears to be the html. (Gonghan)*/
+
+    display: flex;
+    flex-direction: column;
+    background-color:#ffd1ed;
+    /*border: 5px solid yellow;*/
+}
+
+@media screen and (min-width: 50em) {
+
+}

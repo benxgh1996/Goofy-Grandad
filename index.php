@@ -51,7 +51,7 @@
 
     <?php include "footer.php";?>
 
-    <script src="slider.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>

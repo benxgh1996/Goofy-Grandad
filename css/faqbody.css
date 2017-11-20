@@ -4,6 +4,11 @@
     font-size: 1.2em;
 }
 
+.faq-body a {
+    color: black;
+    text-decoration: none;
+}
+    
 .answer {
     padding-left: 1.6em;
     padding-bottom: 1.5em;

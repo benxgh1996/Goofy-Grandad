@@ -1,4 +1,4 @@
-<?php $currentPage = "contact"; ?>
+<?php $currentPage = "home"; ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -16,27 +16,33 @@
 </head>
 
 <body>
-    <?php include "header.php";?>
+    <div class="header">
+
+        <div class="nav-container">
+            <a href="#" <?php if ($currentPage == "home") {echo "id=\"current_nav_item\"";}?>>
+            Heckstall&#39s Real Estate Services</a>
+        </div>
+    </div>
                 
         <div class="contact-body">
             <div class="contact-info">
-                <h2>Contact Goofy Grandad </h2>
-                <p> Reach out to Goofy Grandad!<br>
-                    He would love to hear from you!</p>
+                <h2>Contact Joe Heckstall </h2>
+                <p> Reach out to Joe Heckstall to talk to him<br> about possible real estate possibilities!<br>
+                    He would love to hear from you. </p> 
 
-                <div class="info">
+                <div style="display: flex; flex-direction: row; padding-top: 1em;">
                     <img src="images/person_icon.png" width="50" height="50">
                     <p class="descriptor" style="padding-left: 2em;">Joseph Heckstall</p>
                 </div>
 
-                <div class="info">
+                <div style="display: flex; flex-direction: row; padding-top: 1em;">
                     <img id="phone_icon" src="images/phone_icon.png" width="50" height="50">
                     <p class="descriptor" style="padding-left: 2em;">404-447-3066</p>
                 </div>
 
-                <div class="info">
+                <div style="display: flex; flex-direction: row; padding-top: 1em;">
                     <img id="mail_icon" src="images/mail_icon.png" width="50" height="50">
-                    <p class="descriptor" style="padding-left: 2em;">yourgoofygrandad@gmail.com</p>
+                    <p class="descriptor" style="padding-left: 2em;">powerheck2@comcast.net</p>
                 </div>
             </div>
 
@@ -57,7 +63,9 @@
              </div>
         </div>
 
-    <?php include "footer.php";?>
+    <div class="footer">
+        <div id="copyright" class="bottom-link">© Joe Heckstall 2017</div>
+    </div>
 </body>
 
 </html>

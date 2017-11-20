@@ -17,7 +17,11 @@
 
 <body>
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
+    <script>//retrieves facebook timeline
+    	    //@param d data
+    	    //@param s tagname
+    	    //@param id id
+    	    (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;

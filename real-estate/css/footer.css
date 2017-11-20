@@ -1,0 +1,16 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    /*The above 3 lines of code is part of the key fix to the bottom bar jumping problem. Somehow the
+    footer now recognize the html as its ancestor and positions absolutely with it.*/
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff66c6;
+    flex-wrap: wrap;
+    padding: 1em;
+}

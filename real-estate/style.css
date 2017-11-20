@@ -1,0 +1,8 @@
+/*
+This page imports all the necessary style sheets for the Goofy Grandad Website.
+*/
+
+@import url('css/screen.css');
+@import url('css/header.css');
+@import url('css/footer.css');
+@import url('css/contactbody.css');

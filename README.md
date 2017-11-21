@@ -5,12 +5,15 @@ The Goofy Grandad website is dedicated to facilitating Joe Heckstall's vision of
 ## Release Notes version Goofy Grandad 1.0
 
 NEW FEATURES
+
     Created separate page for contacting Joe about real estate 
 
 BUG FIXES
+
     Made whole question clickable on the FAQ page
 
 KNOWN BUGS
+
     When user clicks on question on FAQ page, refreshes page
 
 ## Install Guide Goofy Grandad 1.0
@@ -27,7 +30,10 @@ https://github.com/benxgh1996/Goofy-Grandad
 No build required for this website.
 
 ### Run
+Navigate to the directory that contains the index.php file on your server to access site.
 
 ### Install
+No further installation necessary.
 
 ### Troubleshooting
+Use Google Chrome's Inspection tool for help debugging if scaling is not functioning as desired.

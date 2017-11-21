@@ -1,39 +1,33 @@
-# Project Name
+# Goofy Grandad
 
-TODO: Write a project description
+The Goofy Grandad website is dedicated to facilitating Joe Heckstall's vision of love and happiness. It gives users an easy way to connect with Goofy Grandad and learn more about his philosophies and services.
 
-## Release Notes
+## Release Notes version Goofy Grandad 1.0
 
-TODO: Describe the installation process
+NEW FEATURES
+    Created separate page for contacting Joe about real estate 
 
-## Installation
+BUG FIXES
+    Made whole question clickable on the FAQ page
+
+KNOWN BUGS
+    When user clicks on question on FAQ page, refreshes page
+
+## Install Guide Goofy Grandad 1.0
 
 ### Pre-requisites
+You must have a PHP server set up to test this code. Recommended:
+- WAMP: http://www.wampserver.com/en/ for Windows
+- XAMPP: https://www.apachefriends.org/download.html for Windows, Linux, or Mac
 
-### Download Instructions
+### Download
+https://github.com/benxgh1996/Goofy-Grandad
 
-### Run Instructions
+### Build
+No build required for this website.
+
+### Run
+
+### Install
 
 ### Troubleshooting
-
-TODO: Write usage instructions
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license

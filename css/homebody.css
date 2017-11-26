@@ -38,8 +38,10 @@ To modify styles for the sliders, go to slider.css.
 
 .pink{
     color: #ff66c6;
+    font-weight: 900;
 }
 
 .yellow{
-    color: #ffff99;
+    color: #fafa5d;
+    font-weight:900;
 }

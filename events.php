@@ -54,7 +54,7 @@
 
         <div class="timeline">
             <div class="timeline-header">
-                Welcome to Goofy Grandad's Facebook timeline!
+                Welcome to Goofy Grandad&#39;s Facebook timeline!
             </div>
 
             <div class="fb-page" data-href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
@@ -66,7 +66,7 @@
                  data-show-facepile="true"
                  style="display: flex; justify-content: center;">
                 <!--I think the above style code has to stay here rather than in a separate css page in order
-                to render the facebook timeline centered in the fb-page frame. I don't know why.
+                to render the facebook timeline centered in the fb-page frame. I don&#39;t know why.
                 The facebook timeline will try to fit in the container frame, which is the timeline class in this
                 case. However, it only happens on page reload (not on window resize).-->
                 <blockquote cite="https://www.facebook.com/GOOFY-Grandad-304161619685945/" class="fb-xfbml-parse-ignore">

@@ -48,7 +48,7 @@
          
 
             <a href="contact.php">
-                <button class="book-button">
+                <button class="book-button" style="border:none;">
                 Contact Goofy Grandad
                 </button>
             </a> 

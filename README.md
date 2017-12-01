@@ -7,14 +7,14 @@ potential opportunities.
 
 ## Release Notes version Goofy-Grandad 1.0
 
-###NEW FEATURES
+### NEW FEATURES
 
 - Made the questions on the FAQ page clickable by themselves to expand the answers.
 - Created a separate page for contacting Joe about real estate opportunities 
 (not essential to this project but requested by Joe).
 
 
-###BUG FIXES
+### BUG FIXES
 
 - Fixed Youtube icon only appearing in footer for one second after loading page.
 - Fixed the booking button on the events page giving no response on click in 
@@ -25,7 +25,7 @@ not appear washed out for some types of monitors.
 events page and the reviews page.
 
 
-###KNOWN BUGS
+### KNOWN BUGS
 
 - When a user clicks on a question on the FAQ page, the page will reload and 
 scroll back to top instead of staying on the question just clicked.
@@ -38,7 +38,7 @@ scroll back to top instead of staying on the question just clicked.
 - An up-to-date web browser:  Google Chrome, Firefox, Microsoft Edge, 
 Internet Explorer, Safari, etc
 
-####For testing the website locally
+#### For testing the website locally
 - You must have PHP (with at least version 5) installed on your computer. 
 Download PHP from http://php.net/downloads.php.
 

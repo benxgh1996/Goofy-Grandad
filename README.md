@@ -55,7 +55,7 @@ No dependent libraries required for running or testing this website.
 1. Navigate to https://github.com/benxgh1996/Goofy-Grandad in your browser.
 2. Click on the green **Clone or download** button on the right of the page.
 3. Click **Download ZIP**, and save the Zip file to your preferred location.
-4. Unzip the ZIP file. The unzipped file shall have a name of 
+4. Unzip the ZIP file. The unzipped folder shall have a name of 
 **Goofy-Grandad-master**. Rename it to **Goofy-Grandad**.
 
 ### BUILD
@@ -63,11 +63,10 @@ No build required for running or testing this website.
 
 ### INSTALL
 If you are not familiar with installing a local web server, here are some 
-recommended approaches to doing so. Nowadays, some local web server 
-distributions can be installed bundled with PHP, so you might not need to install 
-PHP separately.
+recommended approaches to doing so. You do not need to install PHP separately if you
+follow any of these approaches.
 
-#### For macOS
+#### For macOS only
 Your operating system should already have an Apache web server and PHP pre-installed. 
 To enable the pre-installed web server with PHP, follow the following steps:
 1. Open the terminal.
@@ -79,12 +78,61 @@ To enable the pre-installed web server with PHP, follow the following steps:
 Now the Apache web server on your macOS system should be able to run the PHP files 
 of the Goofy Grandad website.
 
-
+#### For Windows/macOS/Linux
+Install XAMPP, which is an Apache distribution containing PHP (so that you do not 
+need to install PHP separately), from https://www.apachefriends.org/download.html. 
+Documentations on installing and using XAMPP can be found on the same web page.
 
 
 ### RUN
-Navigate to the directory that contains the index.php file on your server to access site.
+#### Run the official Goofy Grandad website
+- Navigate to www.goofygrandad.com in your browser to access the most updated 
+official Goofy Grandad website.
+
+#### Run the website using the pre-installed Apache server on macOS
+1. Move the Goofy-Grandad folder to /Library/WebServer/Documents.
+2. Open the terminal.
+3. Run the command `sudo apachectl start`. You will need to type in your password 
+to complete this command.
+4. Open a new tab in a web browser.
+5. Navigate to http://localhost/Goofy-Grandad/. Then you can see the website running.
+6. To stop the Apache web server, run `sudo apachectl stop` in the terminal. 
+You will need to type in your password again to complete this command.
+
+#### Run the website using XAMPP on Windows
+1. Locate where you have installed the **xampp** folder after downloading it.
+2. Move the entire Goofy-Grandad folder into a folder called **htdocs** within the 
+**xampp** folder.
+3. Run XAMPP by double clicking on the file **xampp_start.exe**, located in the 
+**xampp** folder. The XAMPP control panel should pop up shortly after.
+4. Next to the Apache module, click the start button next to it to start running 
+your local server. Verify that the Apache text turns green after clicking start 
+(you may have to wait a few seconds for it to turn from yellow to green).
+5. Enter http://localhost/goofy-grandad/index.php into your browser to access 
+the Goofy Grandad website.
+
+#### Run the website using a remote web server
+1. You need to make sure the remote web server supports PHP of at least version 5.
+2. Consult with the remote web server provider about how to host and access a website 
+on that server.
 
 
 ### TROUBLESHOOTING
-Use Google Chrome's Inspection tool for help debugging if scaling is not functioning as desired.
+#### General problems
+- If the website is not displaying correctly, make sure you are not using an 
+out-of-date browser (such as older versions of Internet Explorer).
+- If the Facebook timeline on the events page is not scaling incorrectly, refresh 
+the web page. The third-party code provided by Facebook only allows the Facebook
+timeline to be rescaled on load of a web page.
+- If the contact form notifies you of an email sending failure, verify that you are 
+connected to the Internet and try again.
+- If the embedded youtube video is not displaying, verify that the video link 
+is still valid.
+
+#### Problems from Using XAMPP
+- If the website is taking a long time to load, verify that XAMPP’s Apache 
+module is green. If not, stop the server by clicking the stop button next to it. 
+Then, click the start button next to the module and wait again until it is green. 
+Next, refresh the web page.
+- If you have made changes to the web page and the changes are not being reflected 
+on the page, follow the the previous step.

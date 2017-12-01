@@ -15,7 +15,7 @@
           href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body style="background-color:#ffd1ed;">
     <div class="header">
 
         <div class="nav-container">

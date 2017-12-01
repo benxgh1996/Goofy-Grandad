@@ -45,11 +45,15 @@
                 people of all ages! Check out what he has been up to on his Facebook
                 timeline.
             </p>
-            <button class="book-button">
-                <a href="contact.php">
-                    Contact Goofy Grandad
-                </a>
-            </button>
+         
+
+            <a href="contact.php">
+                <button class="book-button">
+                <b>Contact Goofy Grandad</b>
+                </button>
+            </a> 
+           
+
         </div>
 
         <div class="timeline">

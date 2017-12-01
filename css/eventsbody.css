@@ -16,9 +16,7 @@
 }
 
 .book-button {
-    
     background-color: #ff66c6;
-    
     padding: 1em 1em;
     text-align: center;
     text-decoration: none;
@@ -29,15 +27,6 @@
     border-radius: 0.5em;
     font-family: Verdana, Geneva, sans-serif;
     /*border: solid 5px black;*/
-}
-
-}
-
-.book-button a  {
-    text-decoration:none;
-    color: black;
-    font-size: 1.5em;
-    font-family: Verdana, Geneva, sans-serif;
 }
 
 .timeline {

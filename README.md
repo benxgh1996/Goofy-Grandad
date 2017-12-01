@@ -58,10 +58,10 @@ No dependent libraries required for running or testing this website.
 4. Unzip the ZIP file. The unzipped file shall have a name of 
 **Goofy-Grandad-master**. Rename it to **Goofy-Grandad**.
 
-### Build
+### BUILD
 No build required for running or testing this website. 
 
-### Install
+### INSTALL
 If you are not familiar with installing a local web server, here are some 
 recommended approaches to doing so. Nowadays, some local web server 
 distributions can be installed bundled with PHP, so you might not need to install 
@@ -82,9 +82,9 @@ of the Goofy Grandad website.
 
 
 
-### Run
+### RUN
 Navigate to the directory that contains the index.php file on your server to access site.
 
 
-### Troubleshooting
+### TROUBLESHOOTING
 Use Google Chrome's Inspection tool for help debugging if scaling is not functioning as desired.

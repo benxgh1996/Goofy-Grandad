@@ -16,13 +16,21 @@
 }
 
 .book-button {
-    width: 21em;
+    
     background-color: #ff66c6;
-    color: black;
-    padding: 1em 0 1em 0;
-    border: none;
-    border-radius: 0.5em;
+    
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
+    border-radius: 0.5em;
+    font-family: Verdana, Geneva, sans-serif;
+    /*border: solid 5px black;*/
+}
+
 }
 
 .book-button a  {

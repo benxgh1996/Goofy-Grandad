@@ -49,7 +49,7 @@
 
             <a href="contact.php">
                 <button class="book-button">
-                <b>Contact Goofy Grandad</b>
+                Contact Goofy Grandad
                 </button>
             </a> 
            

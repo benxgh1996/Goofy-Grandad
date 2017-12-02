@@ -9,17 +9,17 @@ potential opportunities.
 
 ### NEW FEATURES
 - Made the questions on the FAQ page clickable by themselves to expand the answers.
-- Created a separate page for contacting Joe about real estate opportunities 
+- Created a separate page for contacting Joe about real estate opportunities that is
+accessible on www.goofygrandad.com/real-estate
 (not essential to this project but requested by Joe).
 
 
 ### BUG FIXES
 - Fixed Youtube icon only appearing in footer for one second after loading page.
-- Fixed the booking button on the events page giving no response on click in 
-certain browsers.
-- Darkened the yellow color of “happiness” on the home page so that it does 
-not appear washed out for some types of monitors. 
-- Contact page no longer displays white flash on being redirected to from the 
+- Fixed the booking button on the events page unresponsive in certain browsers.
+- Modified the yellow color of “happiness” on the home page so that it does 
+not appear washed out for certain types of monitors. 
+- Fixed contact page displaying white flash on being redirected to from the 
 events page and the reviews page.
 
 
@@ -35,20 +35,20 @@ scroll back to top instead of staying on the question just clicked.
 - An up-to-date web browser:  Google Chrome, Firefox, Microsoft Edge, 
 Internet Explorer, Safari, etc
 
-#### For testing the website on a local server
+#### For running the website on a local server
 - You must have PHP (with at least version 5) installed on your computer. 
-You can view an installation guide from http://php.net/manual/en/install.php.
+You can follow applicable installation guides from http://php.net/manual/en/install.php.
 However, you might not need to install PHP separately, since many local web server
 distributions can be installed bundled with PHP. See INSTALL for more details.
 - You must have a web server installed on your computer and enable the web server 
 to run PHP. See INSTALL for more details.
 
-#### For testing the website on a remote server
-- You must have access to a remote server.
+#### For running the website on a remote server
+- You must have access to a remote server that has PHP installed.
 
 
 ### DEPENDENCIES
-No dependent libraries required for running or testing this website.
+No dependent libraries required for running this website.
 
 
 ### DOWNLOAD
@@ -59,7 +59,7 @@ No dependent libraries required for running or testing this website.
 **Goofy-Grandad-master**. Rename it to **Goofy-Grandad**.
 
 ### BUILD
-No build required for running or testing this website. 
+No build required for running this website. 
 
 ### INSTALL
 If you are not familiar with installing a local web server, here are some 
@@ -105,11 +105,28 @@ You will need to type in your password again to complete this command.
 **xampp** folder.
 3. Run XAMPP by double clicking on the file **xampp_start.exe**, located in the 
 **xampp** folder. The XAMPP control panel should pop up shortly after.
-4. Next to the Apache module, click the start button next to it to start running 
-your local server. Verify that the Apache text turns green after clicking start 
-(you may have to wait a few seconds for it to turn from yellow to green).
+4. Next to the Apache module on the XAMPP control panel, click the start button next to 
+it to start running your local server. Verify that the Apache text turns green 
+after clicking start (you may have to wait a few seconds for it to turn from 
+yellow to green).
 5. Enter http://localhost/goofy-grandad/index.php into your browser to access 
 the Goofy Grandad website.
+
+Please reference https://www.apachefriends.org/faq_windows.html for more information
+about using XAMPP on Windows.
+
+#### Run the website using XAMPP on Linux/macOS
+Running XAMPP on Linux/macOS is similar to running XAMPP on Windows. You need to 
+1. Move the Goofy-Grandad folder into the htdocs directory under the corresponding 
+XAMPP directory
+2. Run XAMPP
+3. Use your browser to navigate to http://localhost/goofy-grandad/index.php to view
+the website
+
+For details on how to locate the corresponding XAMPP directories and 
+how to run XAMPP on the respective operating systems, please reference
+- For Linux: https://www.apachefriends.org/faq_linux.html
+- for macOS: https://www.apachefriends.org/faq_osx.html
 
 #### Run the website using a remote web server
 1. You need to make sure the remote web server supports PHP of at least version 5.
@@ -118,7 +135,6 @@ on that server.
 
 
 ### TROUBLESHOOTING
-#### General problems
 - If the website is not displaying correctly, make sure you are not using an 
 out-of-date browser (such as older versions of Internet Explorer).
 - If the Facebook timeline on the events page is not scaling incorrectly, refresh 
@@ -128,11 +144,8 @@ timeline to be rescaled on load of a web page.
 connected to the Internet and try again.
 - If the embedded youtube video is not displaying, verify that the video link 
 is still valid.
-
-#### Problems from Using XAMPP
-- If the website is taking a long time to load, verify that XAMPP’s Apache 
-module is green. If not, stop the server by clicking the stop button next to it. 
-Then, click the start button next to the module and wait again until it is green. 
-Next, refresh the web page.
+- If the website is taking a long time to load when you run it locally, restart
+your local web server and refresh the website on your browser.
 - If you have made changes to the web page and the changes are not being reflected 
-on the page, follow the the previous step.
+after you refresh the page on the browser, restart your local web server and refresh 
+the page again.

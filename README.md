@@ -137,7 +137,7 @@ on that server.
 ### TROUBLESHOOTING
 - If the website is not displaying correctly, make sure you are not using an 
 out-of-date browser (such as older versions of Internet Explorer).
-- If the Facebook timeline on the events page is not scaling incorrectly, refresh 
+- If the Facebook timeline on the events page is scaling incorrectly, refresh 
 the web page. The third-party code provided by Facebook only allows the Facebook
 timeline to be rescaled on load of a web page.
 - If the contact form notifies you of an email sending failure, verify that you are 

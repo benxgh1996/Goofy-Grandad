@@ -39,9 +39,9 @@ Internet Explorer, Safari, etc
 - You must have PHP (with at least version 5) installed on your computer. 
 You can follow applicable installation guides from http://php.net/manual/en/install.php.
 However, you might not need to install PHP separately, since many local web server
-distributions can be installed bundled with PHP. See INSTALL for more details.
+distributions can be installed bundled with PHP. See [INSTALL](https://github.com/benxgh1996/Goofy-Grandad/blob/master/README.md#install) for more details.
 - You must have a web server installed on your computer and enable the web server 
-to run PHP. See INSTALL for more details.
+to run PHP. See [INSTALL](https://github.com/benxgh1996/Goofy-Grandad/blob/master/README.md#install) for more details.
 
 #### For running the website on a remote server
 - You must have access to a remote server that has PHP installed.

@@ -64,7 +64,8 @@ No build required for running this website.
 ### INSTALL
 If you are not familiar with installing a local web server, here are some 
 recommended approaches to doing so. You do not need to install PHP separately if you
-follow any of these approaches.
+follow any of these approaches. There is no installation needed for the Goofy Grandad
+website itself.
 
 #### For macOS only
 Your operating system should already have an Apache web server and PHP pre-installed. 

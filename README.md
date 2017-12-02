@@ -109,7 +109,7 @@ You will need to type in your password again to complete this command.
 it to start running your local server. Verify that the Apache text turns green 
 after clicking start (you may have to wait a few seconds for it to turn from 
 yellow to green).
-5. Enter http://localhost/goofy-grandad/index.php into your browser to access 
+5. Enter http://localhost/Goofy-Grandad/index.php into your browser to access 
 the Goofy Grandad website.
 
 Please reference https://www.apachefriends.org/faq_windows.html for more information

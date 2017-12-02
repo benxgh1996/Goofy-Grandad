@@ -142,7 +142,7 @@ the web page. The third-party code provided by Facebook only allows the Facebook
 timeline to be rescaled after the web page is loaded.
 - If the contact form notifies you of an email sending failure, verify that you are 
 connected to the Internet and try again.
-- If the embedded youtube video is not displaying, verify that the video link 
+- If the embedded YouTube video is not displaying, verify that the video link 
 is still valid.
 - If the website is taking a long time to load when you run it locally, restart
 your local web server and refresh the website on your browser.

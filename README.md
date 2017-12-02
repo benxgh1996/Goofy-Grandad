@@ -139,7 +139,7 @@ on that server.
 out-of-date browser (such as older versions of Internet Explorer).
 - If the Facebook timeline on the events page is scaling incorrectly, refresh 
 the web page. The third-party code provided by Facebook only allows the Facebook
-timeline to be rescaled on load of a web page.
+timeline to be rescaled after the web page is loaded.
 - If the contact form notifies you of an email sending failure, verify that you are 
 connected to the Internet and try again.
 - If the embedded youtube video is not displaying, verify that the video link 

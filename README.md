@@ -120,7 +120,7 @@ Running XAMPP on Linux/macOS is similar to running XAMPP on Windows. You need to
 1. Move the Goofy-Grandad folder into the htdocs directory under the corresponding 
 XAMPP directory
 2. Run XAMPP
-3. Use your browser to navigate to http://localhost/goofy-grandad/index.php to view
+3. Use your browser to navigate to http://localhost/Goofy-Grandad/index.php to view
 the website
 
 For details on how to locate the corresponding XAMPP directories and 
